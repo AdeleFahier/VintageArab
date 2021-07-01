@@ -303,9 +303,6 @@ div #spaceline{
 
 /* ------------------------------------------------------------ */
 /* ACCUEIL  */
-/* .container{
-    padding-bottom: 80px;
-} */
 .row .col img{
     margin-top: 2px;
     padding-right: 3px;
@@ -320,6 +317,19 @@ div #spaceline{
     box-shadow: 0 2px 5px rgba(0.0.0.2);
 }
 /*  FIN ACCUEIL */
+ .btn{
+     padding: 8px 15px 8px 15px;
+     border : 1px solid gray;
+     background-image: url('Images/Pattern/full-bloom.png');
+ }
+ .btn a{
+     text-decoration: none;
+     color: #2a9d8f;
+     font-size: 20px;
+
+ }
+
+
 
 
 
