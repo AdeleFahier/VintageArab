@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    list-style:none;
+}
+
+body{ 
+    font-family: 'Poiret One', 'Times New Roman', Times, serif;
+    position: relative;
+    background-color: rgb(252, 248, 248);
+}
+#mainDivDesk{
+    position: absolute;
+    width: calc(100vw - 80px);
+    top: 0;
+    right: 0;
+    /* border: red solid 2px; */
+}
+
+@media(max-width: 800px){
+    #mainDivDesk{
+        width: 100%;
+    }
+    
+}
+
+/*---------------------------------------------------------------*/
+/*HEADING PAGES*/
+
+.HeadingVintageArab{
+    background-image: url("/Images/Pattern/pink-dust.png");
+}
+.HeadingBio{
+    background-image: url("/Images/Pattern/regal.png");
+}
+.HeadingDocu{
+    background-image: url("/Images/Pattern/dark-honeycomb.png");
+}
+.HeadingExpo{
+    background-image: url("/Images/Pattern/full-bloom.png");
+}
+.HeadingPublications{
+    background-image: url("/Images/Pattern/curls.png");
+}
+
+.headingPage p{
+    text-align: center;
+}
+@media(max-width: 800px){
+    .headingPage{
+        margin-left: 0px;
+    }    
+}
+
+h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 33px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.HeadingVintageArab h4, .HeadingDocu h4, .HeadingPublications h4{
+    color: rgb(236, 226, 226);
+}
+.HeadingBio h4, .HeadingExpo h4{
+    color: rgb(68, 53, 53);
+}
+.HeadingVintageArab p, .HeadingDocu p, .HeadingPublications p{
+    color: white;
+}
+.HeadingBio p, .HeadingExpo p{
+    color: rgb(107, 84, 84);
+}
+
+
+
+/*------------------------------------------------------------*/
+/* CSS SideBar Left */
+#sidebar{
+    height: min 100vh;
+    background-color: rgb(63, 56, 56);
+    width: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.15);
+    
+}
+#sidebar div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sidebar i{
+    font-size: 25px;
+    color: rgb(255, 253, 253);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sidebar i:hover{
+    color: rgb(185, 173, 173);
+}
+h3{
+    transform: rotate(-90deg);
+    margin-top: 150px;
+}
+h3 a{
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s;
+}
+h3 a:hover{
+    text-decoration: none;
+    color: rgb(185, 173, 173);
+    font-size: 18px;
+}
+h3 span{
+    color: rgb(63, 56, 56);
+}
+
+@media(max-width: 800px){
+    #sidebar{
+        display: none;
+    }
+}
+
+/* -------------------------------------------------------*/
+/* Partie En-tete : Titres */
+
+#en-tete{
+    text-align: center;
+}
+#titleName{ /*nom en arabe*/
+    font-size: 35px;
+    color: rgb(71, 51, 51);
+}
+#en-tete h1 a{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 33px;
+    color: rgb(80, 56, 56);
+    text-decoration: none;
+}
+
+#en-tete h2{
+    color: rgb(82, 70, 70);
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+/*----------------------------------------------------*/
+/*NavBar Burger Version Tablette et Telephone */
+nav{
+    color: #333;
+    display: flex; 
+    justify-content: space-between;
+    z-index: 2;
+}
+nav .mainMenu{
+    display: flex;
+}
+nav .mainMenu li a{
+    padding: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 21px;
+    display: none;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+nav .mainMenu li a:hover{
+    color: rgb(49, 38, 38);
+}
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+    color: rgb(80, 56, 56);
+    z-index: 1;
+}
+nav .mainMenu .closeMenu{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: white;
+}
+@media(max-width: 800px){
+    nav .mainMenu li a{
+        display: block;
+    }
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: top 1s ease;
+        background-color: rgba(168, 161, 161, 0.979);
+        display: none;
+    }
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 35px
+    }
+    nav .openMenu{
+        display: block;
+    }
+    nav .mainMenu li a:hover{
+        color: #fff;
+        font-size: 1.4rem;
+    }
+}
+
+/*-------------------------------------------------------------*/
+/*NavBar Deskstop*/
+div #spaceline{
+    /* margin-left: 45px; */
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(80, 56, 56);
+}
+
+#navbardesktop{
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.navlink{
+    position: relative;
+    font-size: 17px;
+    color: rgb(80, 56, 56);
+    font-weight: 500;
+    /* border: blue solid 1px; */
+}
+.navlink:hover{
+    text-decoration: none;
+    color:rgb(34, 25, 25);
+}
+.navlink::before{
+    position: absolute;
+    content:"";
+    background-color: rgb(153, 141, 141);
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+.navlink:hover::before{
+    transform: scaleX(1);
+}
+.VintageArabeLink{
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color:rgb(83, 70, 70);
+    padding: 4px 12px 4px 12px;
+    color: white;
+}
+.VintageArabeLink:visited{
+    color: white;
+}
+.VintageArabeLink:hover{
+    background-color: rgb(212, 196, 196);
+    color: rgb(48, 40, 40) ;
+    text-decoration: none;
+}
+
+@media(max-width: 800px){
+    div #spaceline{
+        margin-left: 0;
+        width: 100%;   
+    }
+    #navbardesktop{
+        display: none;
+    }
+}
+
+/*PAGE BIO*/
+/* #HajerBio{
+    margin-left{}
+} */
+
+
+
+
+
+
+
+ 
