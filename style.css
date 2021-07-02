@@ -43,6 +43,9 @@ body{
 .HeadingPublications{
     background-image: url("/Images/Pattern/curls.png");
 }
+.HeadingPresse{
+    background-image: url("/Images/Pattern/intersection.png");
+}
 
 .headingPage p{
     text-align: center;
@@ -326,31 +329,7 @@ div #spaceline{
      text-decoration: none;
      color: #2a9d8f;
      font-size: 20px;
-
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------------------------------------------------------*/
 
 /*PAGE VINTAGE ARAB*/
@@ -386,4 +365,32 @@ div #spaceline{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+/* Press page */
+.card-footer, .text-muted{
+    background-image: url('Images/Pattern/intersection.png');
+ }
+ /* ---------------------------------------------------------- */
