@@ -21,18 +21,21 @@
 
 <body>
 
+    <!--Fleche scroll back to top-->
+    <div class="scrollTop" onclick="scrollToTop()"><img class="img-fluid" src="/Images/noun_Arrow Up.png"></div>
+
     <!--NavBar Burger Version Tablette et Telephone-->
     <div class="container">
         <nav>
             <div class="openMenu"><i class="fas fa-bars"></i></div>
             <ul class="mainMenu">
-                <li><a href="bio.html">- Une vie de créatrice audio -</a></li>
-                <li><a class="active VintageArabeLink" href="vintagearab.html">- Vintage Arabe -</a></li>
-                <li><a href="documentaires.html">- Documentaires Radio -</a></li>
-                <li><a href="expositions.html">- Expositions -</a></li>
-                <li><a href="publications.html">- Publications -</a></li>
-                <li><a href="presse.html">- Presse -</a></li>
-                <li><a href="contact.html">- Contact -</a></li>
+                <li><a href="/bio.html">- Une vie de créatrice audio -</a></li>
+                <li><a class="active VintageArabeLink" href="/vintagearab.html">- Vintage Arabe -</a></li>
+                <li><a href="/documentaires.html">- Documentaires Radio -</a></li>
+                <li><a href="/expositions.html">- Expositions -</a></li>
+                <li><a href="/publications.html">- Publications -</a></li>
+                <li><a href="/presse.html">- Presse -</a></li>
+                <li><a href="/contact.html">- Contact -</a></li>
                 <div class="closeMenu"><i class="fas fa-times"></i></div>
             </ul>
         </nav>
@@ -41,9 +44,9 @@
     <!--SideBar côté gauche version desktop-->
     <div id="sidebar">
         <h3><a
-                href="bio.html">-<span>_</span>Une<span>_</span>vie<span>_</span>de<span>_</span>créatrice<span>_</span>sonore<span>_</span>-</a>
+                href="/bio.html">-<span>_</span>Une<span>_</span>vie<span>_</span>de<span>_</span>créatrice<span>_</span>sonore<span>_</span>-</a>
         </h3>
-        <h3><a href="contact.html">-<span>_</span>Contacter<span>_</span>Hajer<span>_</span>-</a></h3>
+        <h3><a href="/contact.html">-<span>_</span>Contacter<span>_</span>Hajer<span>_</span>-</a></h3>
         <div class="mt-5 mb-3">
             <a href="https://soundcloud.com/vintagearab"><i class="fab fa-soundcloud"></i></a>
             <a href="https://open.spotify.com/show/1bni71qHZegM3at7TZMPZe"><i class="fab fa-spotify"></i></a>
@@ -61,7 +64,7 @@
         <!--En tête Main Title-->
         <div class="container mt-3" id="en-tete">
             <p id="titleName">هاجر بن بوبكر</p>
-            <h1><a href="index.html">Hajer Ben Boubaker</a></h1>
+            <h1><a href="/index.html">Hajer Ben Boubaker</a></h1>
             <h2>- Chercheuse et réalisatrice sonore -</h2>
         </div>
 
@@ -69,20 +72,22 @@
             <div id="spaceline"></div>
             <!--Barre de navigation version desktop-->
             <nav id="navbardesktop">
-                <li id="mainCategory"><a class="VintageArabeLink" href="vintagearab.html">- Vintage Arab -</a></li>
-                <li><a class="navlink" href="documentaires.html">- Documentaires radio -</a></li>
-                <li><a class="navlink" href="expositions.html">- Expositions -</a></li>
-                <li><a class="navlink" href="publications.html">- Publications -</a></li>
-                <li><a class="navlink" href="presse.html">- Presse -</a></li>
+                <li id="mainCategory"><a class="VintageArabeLink" href="/vintagearab.html">- Vintage Arab -</a></li>
+                <li><a class="navlink" href="/documentaires.html">- Documentaires radio -</a></li>
+                <li><a class="navlink" href="/expositions.html">- Expositions -</a></li>
+                <li><a class="navlink" href="/publications.html">- Publications -</a></li>
+                <li><a class="navlink" href="/presse.html">- Presse -</a></li>
             </nav>
         </div>
 
 
 
-        
-    
-<!--LA SUITE DU CODE PAR ICI-->
-        <div class="container mt-5">
+
+
+        <!--LA SUITE DU CODE PAR ICI-->
+        <div class="container mt-5 border border-danger">
+            <p><img id="arrow-left" src="/Images/Arrow-left.png" alt=""><a id="linkbacktopodcast"
+                    href="/vintagearab.html">Retour à la liste des podcasts</a></p>
             <div class="row">
                 <div class="col-lg-12">
                     <h5>Vintage Arab x Radio Flouka | Istanbul, souvenirs d'une ville</h5>
@@ -104,7 +109,8 @@
 
                         La Rumeur - Live du 17 Octobre 2002
                         Cheb Khaled - El Babour
-                        Discours de Abdelkrim El Khattabi- Archive radiophonique de la radio égyptienne "Sawt el Arab" (La voix des Arabes)
+                        Discours de Abdelkrim El Khattabi- Archive radiophonique de la radio égyptienne "Sawt el Arab"
+                        (La voix des Arabes)
                         Begar Hadda - Ya Djabel Boukhadra
                         Bouchaib el Bidaoui - Khoutna ya el islam
                         Archive de l'émission " Cinq colonnes à la une" en 1963
@@ -126,12 +132,18 @@
                 </div>
             </div>
             
-            
-    
+
+
+            <p class="mb-5"><img id="arrow-left" src="/Images/Arrow-left.png" alt=""><a id="linkbacktopodcast"
+                    href="/vintagearab.html">Retour à la liste des podcasts</a></p>
+
         </div>
-        
+
     </div>
- <script src="main.js"></script>
+
+
+
+    <script src="/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
