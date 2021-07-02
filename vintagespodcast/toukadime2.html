@@ -21,18 +21,21 @@
 
 <body>
 
+    <!--Fleche scroll back to top-->
+    <div class="scrollTop" onclick="scrollToTop()"><img class="img-fluid" src="../Images/noun_Arrow Up.png"></div>
+
     <!--NavBar Burger Version Tablette et Telephone-->
     <div class="container">
         <nav>
             <div class="openMenu"><i class="fas fa-bars"></i></div>
             <ul class="mainMenu">
-                <li><a href="bio.html">- Une vie de créatrice audio -</a></li>
-                <li><a class="active VintageArabeLink" href="vintagearab.html">- Vintage Arabe -</a></li>
-                <li><a href="documentaires.html">- Documentaires Radio -</a></li>
-                <li><a href="expositions.html">- Expositions -</a></li>
-                <li><a href="publications.html">- Publications -</a></li>
-                <li><a href="presse.html">- Presse -</a></li>
-                <li><a href="contact.html">- Contact -</a></li>
+                <li><a href="../bio.html">- Une vie de créatrice audio -</a></li>
+                <li><a class="active VintageArabeLink" href="../vintagearab.html">- Vintage Arabe -</a></li>
+                <li><a href="../documentaires.html">- Documentaires Radio -</a></li>
+                <li><a href="../expositions.html">- Expositions -</a></li>
+                <li><a href="../publications.html">- Publications -</a></li>
+                <li><a href="../presse.html">- Presse -</a></li>
+                <li><a href="../contact.html">- Contact -</a></li>
                 <div class="closeMenu"><i class="fas fa-times"></i></div>
             </ul>
         </nav>
@@ -41,9 +44,9 @@
     <!--SideBar côté gauche version desktop-->
     <div id="sidebar">
         <h3><a
-                href="bio.html">-<span>_</span>Une<span>_</span>vie<span>_</span>de<span>_</span>créatrice<span>_</span>sonore<span>_</span>-</a>
+                href="../bio.html">-<span>_</span>Une<span>_</span>vie<span>_</span>de<span>_</span>créatrice<span>_</span>sonore<span>_</span>-</a>
         </h3>
-        <h3><a href="contact.html">-<span>_</span>Contacter<span>_</span>Hajer<span>_</span>-</a></h3>
+        <h3><a href="../contact.html">-<span>_</span>Contacter<span>_</span>Hajer<span>_</span>-</a></h3>
         <div class="mt-5 mb-3">
             <a href="https://soundcloud.com/vintagearab"><i class="fab fa-soundcloud"></i></a>
             <a href="https://open.spotify.com/show/1bni71qHZegM3at7TZMPZe"><i class="fab fa-spotify"></i></a>
@@ -61,7 +64,7 @@
         <!--En tête Main Title-->
         <div class="container mt-3" id="en-tete">
             <p id="titleName">هاجر بن بوبكر</p>
-            <h1><a href="index.html">Hajer Ben Boubaker</a></h1>
+            <h1><a href="../index.html">Hajer Ben Boubaker</a></h1>
             <h2>- Chercheuse et réalisatrice sonore -</h2>
         </div>
 
@@ -69,11 +72,11 @@
             <div id="spaceline"></div>
             <!--Barre de navigation version desktop-->
             <nav id="navbardesktop">
-                <li id="mainCategory"><a class="VintageArabeLink" href="vintagearab.html">- Vintage Arab -</a></li>
-                <li><a class="navlink" href="documentaires.html">- Documentaires radio -</a></li>
-                <li><a class="navlink" href="expositions.html">- Expositions -</a></li>
-                <li><a class="navlink" href="publications.html">- Publications -</a></li>
-                <li><a class="navlink" href="presse.html">- Presse -</a></li>
+                <li id="mainCategory"><a class="VintageArabeLink" href="../vintagearab.html">- Vintage Arab -</a></li>
+                <li><a class="navlink" href="../documentaires.html">- Documentaires radio -</a></li>
+                <li><a class="navlink" href="../expositions.html">- Expositions -</a></li>
+                <li><a class="navlink" href="../publications.html">- Publications -</a></li>
+                <li><a class="navlink" href="../presse.html">- Presse -</a></li>
             </nav>
         </div>
 
@@ -81,13 +84,25 @@
     
 <!--LA SUITE DU CODE PAR ICI-->
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-fluid mb-5" src="../Images/Photos/pic3.png" alt="toukadime2">
+            <section class="d-flex justify-content-between">
+                <div>
+                <img id="arrow-left" src="../Images/Arrow-left.png" alt="fleche vers gauche">
+                <a id="linkbacktopodcast"
+                href="../vintagearab.html">Retour à la liste des podcasts</a>
+                </div>
+                <div>
+                    <a id="linknextpodcast"
+                    href="toukadime1.html">Podcast suivant</a>
+                    <img id="arrow-right" src="../Images/Arrow-right.png" alt="fleche vers droite">
+                </div>
+            </section>
+                <div class="row">
+                    <div class="col lg-4 d-flex justify-content-center align-items-center">
+                    <img class="img-fluid mb-2 mt-5" src="../Images/Photos/pic3.png" alt="toukadime2">
                 </div>
                 <div class="col-lg-8">
                     <h5>Vintage Arab x Toukadime | Farid El Atrache, prince du printemps [Deuxième Partie]</h5>
-                    <p>
+                    <p class="text-justify">
                         Deuxième partie de l'émission spéciale Farid El Atrache ! Et en ces circonstances exceptionnelles pour tout le monde, pourquoi pas s'échapper du présent et évoquer la mémoire d'une légende de la musique arabe ? Le grand Farid El Atrache !
 
                         Prince syrien du Jabel el Druze, star du cinéma égyptien, poutre maitresse de la musique arabe, frère et miroir de la mythique Asmahan, amour de Samia Gamal, Farid a eu mille vies. L'occasion de parler de celui que les arabes nomment encore aujourd'hui 'El Wahid" ("celui qui est seul" ou le solitaire mais qui peut aussi se comprendre comme "l'unique" dans certain contexte. Farid signifiant en arabe ..."unique") autour d'une playlist "printanière" et joyeuse !
@@ -99,11 +114,22 @@
                     </p>
                 </div>
             </div>
-            <div class="col_lg-12 mt-5">
+            <div class="col-lg-12 mt-5 mb-4">
                 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/790600060&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/vintagearab" title="Vintage Arab" target="_blank" style="color: #cccccc; text-decoration: none;">Vintage Arab</a> · <a href="https://soundcloud.com/vintagearab/vintage-arab-x-toukadime-farid-el-atrache-prince-du-printemps-deuxieme-partie" title="Vintage Arab x Toukadime | Farid El Atrache, prince du printemps [Deuxième Partie]" target="_blank" style="color: #cccccc; text-decoration: none;">Vintage Arab x Toukadime | Farid El Atrache, prince du printemps [Deuxième Partie]</a></div>
             </div>
             
-            </div>
+            <section class="d-flex justify-content-between mb-5">
+                <div>
+                <img id="arrow-left" src="../Images/Arrow-left.png" alt="fleche vers gauche">
+                <a id="linkbacktopodcast"
+                href="../vintagearab.html">Retour à la liste des podcasts</a>
+                </div>
+                <div>
+                    <a id="linknextpodcast"
+                    href="toukadime1.html">Podcast suivant</a>
+                    <img id="arrow-right" src="../Images/Arrow-right.png" alt="fleche vers droite">
+                </div>
+            </section>  
     
         </div>
         
@@ -111,7 +137,7 @@
 
 
 
-    <script src="main.js"></script>
+    <script src="../main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
