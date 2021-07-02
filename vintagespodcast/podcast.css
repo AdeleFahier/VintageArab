@@ -1,0 +1,13 @@
+.text-nowrap{
+    display: flex;
+    margin-top: 5px;
+}
+
+h5{
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 33px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
