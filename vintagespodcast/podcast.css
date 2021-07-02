@@ -7,20 +7,31 @@ h5{
 
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-    font-size: 33px;
+    font-size: 28px;
     margin-top: 20px;
     letter-spacing: 2px;
+}
+
+@media(max-width: 1000px){
+    h5{
+        font-size: 25px;
+    }
 }
 
 #arrow-left{
     width: 30px;
     margin-right: 10px;
 }
+#arrow-right{
+    width: 30px;
+    margin-left: 10px;
+}
 
-#linkbacktopodcast{
+#linkbacktopodcast, #linknextpodcast{
     text-decoration: none;
     color: rgb(122, 85, 85);
 }
-#linkbacktopodcast:hover{
+#linkbacktopodcast:hover, #linknextpodcast:hover{
     color: rgb(63, 42, 42);
 }
+

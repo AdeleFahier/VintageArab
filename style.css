@@ -30,7 +30,7 @@ body{
   .scrollTop{
     position: fixed;
     bottom: 800px;
-    right: 40px;
+    right: 25px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -58,22 +58,22 @@ body{
 /*HEADING PAGES*/
 
 .HeadingVintageArab{
-    background-image: url("/Images/Pattern/pink-dust.png");
+    background-image: url("Images/Pattern/pink-dust.png");
 }
 .HeadingBio{
-    background-image: url("/Images/Pattern/regal.png");
+    background-image: url("Images/Pattern/regal.png");
 }
 .HeadingDocu{
-    background-image: url("/Images/Pattern/dark-honeycomb.png");
+    background-image: url("Images/Pattern/dark-honeycomb.png");
 }
 .HeadingExpo{
-    background-image: url("/Images/Pattern/full-bloom.png");
+    background-image: url("Images/Pattern/full-bloom.png");
 }
 .HeadingPublications{
-    background-image: url("/Images/Pattern/curls.png");
+    background-image: url("Images/Pattern/curls.png");
 }
 .HeadingPresse{
-    background-image: url("/Images/Pattern/intersection.png");
+    background-image: url("Images/Pattern/intersection.png");
 }
 
 .headingPage p{
@@ -83,6 +83,9 @@ body{
     .headingPage{
         margin-left: 0px;
     }    
+    .headingPage h4{
+        font-size: 26px;
+    }
 }
 
 h4{
@@ -380,7 +383,7 @@ div #spaceline{
     color: white;
     font-weight: 700;
     padding: 8px 15px 8px 15px;
-    background-image: url("/Images/Pattern/pink-dust.png");
+    background-image: url("Images/Pattern/pink-dust.png");
 }
 
 .PodcastContainer{
@@ -388,9 +391,11 @@ div #spaceline{
     
 }
 
- 
+
+
 /* Press page */
 .card-footer, .text-muted{
     background-image: url('Images/Pattern/intersection.png');
  }
  /* ---------------------------------------------------------- */
+
