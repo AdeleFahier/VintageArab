@@ -24,6 +24,35 @@ body{
     }
     
 }
+/*----------------------------------------------------------------*/
+  /* SCROLL BUTTON BACK TO TOP*/
+
+  .scrollTop{
+    position: fixed;
+    bottom: 800px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: rgb(98, 74, 74) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.scrollTop img{
+    width: 50px;
+    height: 50px;
+}
+.scrollTop.active{
+    bottom: 80px;
+    visibility: visible;
+    opacity: 1;
+}
 
 /*---------------------------------------------------------------*/
 /*HEADING PAGES*/
@@ -42,6 +71,9 @@ body{
 }
 .HeadingPublications{
     background-image: url("/Images/Pattern/curls.png");
+}
+.HeadingPresse{
+    background-image: url("/Images/Pattern/intersection.png");
 }
 
 .headingPage p{
@@ -324,33 +356,9 @@ div #spaceline{
  }
  .btn a{
      text-decoration: none;
-     color: #2a9d8f;
-     font-size: 20px;
-
+     color: #18625a;
+     font-size: 17px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------------------------------------------------------------*/
 
 /*PAGE VINTAGE ARAB*/
@@ -386,4 +394,32 @@ div #spaceline{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+/* Press page */
+.card-footer, .text-muted{
+    background-image: url('Images/Pattern/intersection.png');
+ }
+ /* ---------------------------------------------------------- */
