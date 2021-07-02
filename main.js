@@ -15,3 +15,16 @@ function show(){
 function close(){
     mainMenu.style.top = '-100%';
 }
+
+
+// scroll to top
+window.addEventListener("scroll", function(){
+    const scroll = document.querySelector(".scrollTop")
+    scroll.classList.toggle("active", window.scrollY > 500)
+})
+
+function scrollToTop(){
+    window.scrollTo({
+        top: 0
+    })
+}
